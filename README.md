@@ -1,4 +1,4 @@
-# Real-time Speech Transcription and Summarization System
+# 🧠 Real-time Speech Transcription and Summarization System
 
 An end-to-end system that supports **real-time audio captioning**, **speech recognition**, and **summarization**, designed for intelligent audio understanding applications. Powered by state-of-the-art deep learning models (ResNet, LSTM, Whisper, Wav2Vec2, PEGASUS, T5), deployed with FastAPI + Streamlit + Docker.
 
