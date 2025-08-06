@@ -1,0 +1,29 @@
+{
+  "encoder": {
+    "encoder_type": "resnet50",
+    "encoder_output_size": 2048,
+    "embedding_dim": 512,
+    "hidden_dim": 1024,
+    "vocab_size": 10000,
+    "num_layers": 1
+  },
+  "decoder": {
+  "vocab_size": 10000,
+  "embedding_dim": 512,
+  "encoder_dim": 2048,
+  "hidden_dim": 1024,
+  "num_layers": 1
+  },
+  "tokenizer": {
+    "max_seq_length": 30,
+    "pad_token_id": 0,
+    "start_token_id": 1,
+    "end_token_id": 2
+  },
+  "mel_spectrogram": {
+    "sample_rate": 16000,
+    "n_fft": 1024,
+    "hop_length": 256,
+    "n_mels": 128
+  }
+}
